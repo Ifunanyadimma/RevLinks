@@ -1,0 +1,41 @@
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.container {
+    padding: 8px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  .navBar1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 10%;  
+    height: 100%; 
+    margin: 0 auto 200px auto; 
+    color: #fff;
+  }
+
+  .logo-image {
+    width: 100px;
+    height: 30px;
+  }
+
+  .h3 {
+    margin-left: 100px;
+    color: #000;
+  }
